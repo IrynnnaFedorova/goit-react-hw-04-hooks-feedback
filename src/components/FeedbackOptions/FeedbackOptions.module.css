@@ -1,0 +1,24 @@
+.btn {
+  cursor: pointer;
+  padding: 5px 20px;
+  font-size: 20px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  font-family: inherit;
+  background: white;
+  color: black;
+  box-shadow: none;
+  outline: none;
+  transition: color 250ms ease, box-shadow 250ms ease, background 250ms;
+}
+
+.btn:hover,
+.btn:focus {
+  background: rgb(117, 117, 228);
+  color: white;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.btn:not(:last-child) {
+  margin-right: 10px;
+}
